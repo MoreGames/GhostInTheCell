@@ -1,4 +1,7 @@
-# GhostInTheCell [<img alt="Build Status" src="https://travis-ci.org/rsp/travis-hello-modern-cpp.svg?branch=master" height="40">][travis-url]
+
+[![Build Status](https://travis-ci.org/MoreGames/GhostInTheCell.png?branch=master)](https://travis-ci.org/MoreGames/GhostInTheCell)
+
+# GhostInTheCell
 
 AI challenge by CodinGame (https://www.codingame.com/) .
 
