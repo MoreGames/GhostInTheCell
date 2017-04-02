@@ -1,5 +1,15 @@
+sudo: false
 language: cpp
-
-compiler: gcc
-
-script: make
+compiler:
+  - gcc
+  - clang
+addons:
+  apt:
+    packages:
+    - g++-6
+    - clang-3.8
+install:
+- "[ $CXX = g++ ] && export CXX=g++-6 || true"
+- "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
+script:
+  - make
