@@ -1,11 +1,10 @@
-CXX = g++
 CXXFLAGS = -g -Wall -Wfatal-errors -std=c++14
 
-ALL = wood
+ALL = OutOfWood
 
 all: $(ALL)
 
-wood: OutOfWood.cpp Makefile
+OutOfWood: OutOfWood.cpp Makefile
 	$(CXX) $(CXXFLAGS) -o $@ $@.cpp
 
 clean:
