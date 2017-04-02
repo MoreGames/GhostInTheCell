@@ -856,8 +856,6 @@ int main() {
 		}
 #endif
 
-		double limit = turn ? 0.045 : 0.950;
-
 		vector<Action> actions = heuristicWood2_1();
 
 #ifdef DEBUG
